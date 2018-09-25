@@ -1,152 +1,109 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
+<html>
 
 <head>
-    <meta charset="UTF-8">
-    <!-- <meta name="viewport" content="width=width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"> -->
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>汪先锋-前端-简历</title>
-    <link rel="stylesheet" href="css/resume.css">
-    <link rel="shortcut icon" href="favicon.ico">
-    <style>
-        canvas {
-            position: absolute;
-            top: 0;
-            left: 0;
-            z-index: 0;
-            width: 100%;
-            height: 100%;
-            pointer-events: none;
-        }
-    </style>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>汪先锋-前端-简历</title>
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+
+	<link href="css/dashboard.css" rel="stylesheet">
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<!-- font -->
+	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+
 </head>
 
 <body>
-    <div class="main">
-        <h2>汪先锋</h2>
-        <h3>基本信息</h3>
-        <ul>
-            <li>目标职位：Web前端开发</li>
-            <li>学校：宁波城市职业技术学院</li>
-            <li>专业：计算机应用</li>
-            <li>电话：17858932981</li>
-            <li>邮箱：<a href='mailto:mr.tennant@outlook.com' target='_blank' class='url'>mr.tennant@outlook.com</a></li>
-            <li>个人博客：<a href='https://selfimper.github.io'>HsienFeng</a></li>
+	<!-- header -->
+	<div class="col-sm-3 col-md-2 sidebar">
+		<div class="sidebar_top">
+			<h1>汪先锋</h1>
+			<img src="images/avatar.jpg" alt="" />
+		</div>
+		<div class="details">
+			<h3>HTML</h3>
+			<h3>CSS</h3>
+			<h3>JavaScript</h3>
+			<h3>jQuery</h3>
+			<h3>Bootstrap</h3>
+			<h3>Git</h3>
+		</div>
+		<div class="clearfix"></div>
+	</div>
+	<!---->
+	<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+	<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+	<!---//pop-up-box---->
+	<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
+		<div class="content">
+			<div class="basic">
+				<h3 class="clr1">基本信息</h3>
+				<div class="basic_details">
+					<p>
+						<strong>目标职位</strong>：Web前端开发<br>
+						<strong>电话</strong>：17858932981<br>
+						<strong>邮箱</strong>：<a href="mailto:mr.tennant@outlook.com">mr.tennant@outlook.com</a><br>
+						<strong>个人博客</strong>：<a href="https://selfimper.github.io">HsienFeng</a><br>
+						<strong>学校</strong>：宁波城市职业技术学院
+					</p>
+				</div>
+			</div>
+			<div class="skills">
+				<h3 class="clr2">技能点</h3>
+				<div class="skill_info">
+					<p>
+						<strong>英文</strong>：四级，能够阅读英文技术文档及其他英文资料。<br>
+						<strong>HTML/CSS</strong>：熟悉HTML/CSS，掌握浮动、定位、盒模型等CSS核心概念，掌握常见布局方式，对代码可读性、规范性、语义化有一定认识，能熟练开发符合W3C规范的常见页面；熟悉Bootstrap框架。<br>
+						<strong>JavaScript</strong>：能使用JavaScript实现常见的效果；了解ES6常用语法，块级作用域、箭头函数、模板字符串、解构赋值等。<br>
+						<strong>Node.js</strong>：了解Node.js的基础部分知识，使用Node.js搭建过简易服务器。<br>
+						<strong>jQuery</strong>：熟悉jQuery的常用API，能使用jQuery进行网站开发。<br>
+						<strong>开发环境和工具</strong>：Windows/Ubuntu，Git，Sublime，VS Code，HBuilder，XMind。<br>
+					</p>
+				</div>
+			</div>
 
-        </ul>
-        <h3>技能点</h3>
-        <ul>
-            <li><strong>英文</strong>：四级，能够阅读英文技术文档及其他英文资料。</li>
-            <li><strong>HTML/CSS</strong>：熟悉HTML/CSS，掌握浮动、定位、盒模型等CSS核心概念，掌握常见布局方式，对代码可读性、规范性、语义化有一定认识，能熟练开发符合W3C规范的常见页面；熟悉Bootstrap框架。</li>
-            <li><strong>JavaScript</strong>：能使用JavaScript实现常见的效果；了解ES6常用语法，块级作用域、箭头函数、模板字符串、解构赋值等。</li>
-            <li><strong>Node.js</strong>：了解Node.js的基础部分知识，使用Node.js搭建过简易服务器。</li>
-            <li><strong>jQuery</strong>：熟悉jQuery的常用API，能使用jQuery进行网站开发。</li>
-            <li><strong>开发环境和工具</strong>：Windows/Ubuntu，Git，Sublime，VS Code，HBuilder，XMind。</li>
+			<div class="projects">
+				<h3 class="clr3">个人项目</h3>
+				<div class="projects_details">
+					<h4><strong><a href="https://selfimper.github.io/douban-movie/index.html">移动端豆瓣电影</a></strong></h4>
+					<p>
+						豆瓣电影TOP250，可用来查询豆瓣电影榜单上TOP250的电影资源。<br>
+						利用豆瓣提供 API 接口，使用 jsonp 解决跨域问题。主要使用 jQuery 以及 jsonp。<br>
+						实现查询豆瓣 top250 电影列表。首先展示20个数据，用户拉到底部，会接着依次展示另外20个电影数据。<br>
+						查询北美电影列表。一次性加载数据。<br>
+						关键字搜索。根据关键字，返回相关的电影信息。</p>
+				</div>
 
-        </ul>
-        <h3>个人项目</h3>
-        <ul>
-            <li>
-                <p><strong><a href='https://selfimper.github.io/douban-movie/index.html'>移动端豆瓣电影</a></strong></p>
-                <p>实现功能：</p>
-                <ul>
-                    <li>实现查询豆瓣 top250 电影列表。首先展示20个数据，用户拉到底部，会接着依次展示另外20个电影数据。</li>
-                    <li>查询北美电影列表。一次性加载数据。</li>
-                    <li>关键字搜索。根据关键字，返回相关的电影信息。</li>
+				<div class="projects_details">
+					<h4><strong><a href="https://selfimper.github.io/TASK/25/login.html">登录注册页面</a></strong></h4>
+					<p>
+						点击右上角的图标，跳转出一个可进行登录和注册的页面。<br>
+						主要使用CSS3实现一个登录注册的翻转效果。
+					</p>
+				</div>
 
-                </ul>
-            </li>
-            <li>
-                <p><strong><a href='https://selfimper.github.io/collect/index.html'>学习效果</a></strong></p>
-                <p>学习前端时做练习的一些效果汇总。</p>
-            </li>
+				<div class="projects_details">
+					<h4><strong><a href="https://selfimper.github.io/musicRadio/index.html">大屏音乐电台</a></strong></h4>
+					<p>
+						模拟电台音乐功能，能随机播放音乐。<br>
+						响应式布局,歌词自动加载功能。<br>
+						实现在底部选择分类时，播放区会获取到相应的分类数据并处理，如音乐的地址、图片、标题、作者和歌词。<br>
+						随意播放与切换下一首歌曲。
+					</p>
+				</div>
 
-        </ul>
-        <ul>
-            <li>
-                <p><strong><a href='https://'>在线画板</a></strong></p>
-                <p>实现功能：</p>
-                <ul>
-                    <li>实现选择颜色、画笔类型和擦出等绘画功能。</li>
-                    <li>实现在线画板的本地保存功能。</li>
-                    <li>支持手机在线绘画功能。</li>
-                </ul>
-            </li>
-        </ul>
-        <ul>
-            <li>
-                <p><strong><a href='https://selfimper.github.io/musicRadio/index.html'>PC端音乐电台</a></strong></p>
-                <p>实现功能：</p>
-                <ul>
-                    <li>实现在底部选择分类时，播放区会获取到相应的分类数据并处理，如音乐的地址、图片、标题、作者和歌词。</li>
-                </ul>
-            </li>
-        </ul>
+				<div class="projects_details">
+					<h4><strong><a href="https://selfimper.github.io/collect/index.html">学习demo汇总</a></strong></h4>
+					<p>学习前端时做练习的一些效果汇总。</p>
+				</div>
+			</div>
 
-
-        <canvas></canvas>
-        <script>
-            document.addEventListener('touchmove', function (e) {
-                e.preventDefault()
-            })
-            var c = document.getElementsByTagName('canvas')[0],
-                x = c.getContext('2d'),
-                pr = window.devicePixelRatio || 1,
-                w = window.innerWidth,
-                h = window.innerHeight,
-                f = 90,
-                q,
-                m = Math,
-                r = 0,
-                u = m.PI * 2,
-                v = m.cos,
-                z = m.random
-            c.width = w * pr
-            c.height = h * pr
-            x.scale(pr, pr)
-            x.globalAlpha = 0.6
-
-            function i() {
-                x.clearRect(0, 0, w, h)
-                q = [{
-                    x: 0,
-                    y: h * .7 + f
-                }, {
-                    x: 0,
-                    y: h * .7 - f
-                }]
-                while (q[1].x < w + f) d(q[0], q[1])
-            }
-
-            function d(i, j) {
-                x.beginPath()
-                x.moveTo(i.x, i.y)
-                x.lineTo(j.x, j.y)
-                var k = j.x + (z() * 2 - 0.25) * f,
-                    n = y(j.y)
-                x.lineTo(k, n)
-                x.closePath()
-                r -= u / -50
-                x.fillStyle = '#' + (v(r) * 127 + 128 << 16 | v(r + u / 3) * 127 + 128 << 8 | v(r + u / 3 * 2) * 127 +
-                    128).toString(16)
-                x.fill()
-                q[0] = q[1]
-                q[1] = {
-                    x: k,
-                    y: n
-                }
-            }
-
-            function y(p) {
-                var t = p + (z() * 2 - 1.1) * f
-                return (t > h || t < 0) ? y(p) : t
-            }
-            document.onclick = i
-            document.ontouchstart = i
-            i()
-        </script>
+		</div>
+	</div>
+	
 </body>
-</div>
-
 
 </html>
