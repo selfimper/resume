@@ -6,9 +6,9 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>汪先锋-前端-简历</title>
 	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
-
 	<link href="css/dashboard.css" rel="stylesheet">
 	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<link rel="stylesheet" href="css/animate.css">
 	<link rel="shortcut icon" href="images/favicon.ico">
 	<!-- font -->
 	<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,500,700' rel='stylesheet' type='text/css'>
@@ -16,14 +16,14 @@
 
 </head>
 
-<body>
+<body class="animated fadeIn fast">
 	<!-- header -->
 	<div class="col-sm-3 col-md-2 sidebar">
-		<div class="sidebar_top">
+		<div class="sidebar_top animated fadeInLeft delay-1s">
 			<h1>汪先锋</h1>
-			<img src="images/avatar.jpg" alt="" />
+			<img src="images/avatar.jpg" />
 		</div>
-		<div class="details">
+		<div class="details animated fadeInLeft delay-1s">
 			<h3>HTML</h3>
 			<h3>CSS</h3>
 			<h3>JavaScript</h3>
@@ -39,35 +39,38 @@
 	<!---//pop-up-box---->
 	<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main">
 		<div class="content">
-			<div class="basic">
-				<h3 class="clr1">基本信息</h3>
-				<div class="basic_details">
+			<!-- 基本信息 -->
+			<div class="basic ">
+				<h3 class="clr1 animated fadeInLeft delay-2s">基本信息</h3>
+				<div class="basic_details animated bounceIn delay-2s">
 					<p>
 						<strong>目标职位</strong>：Web前端开发<br>
 						<strong>电话</strong>：17858932981<br>
 						<strong>邮箱</strong>：<a href="mailto:mr.tennant@outlook.com">mr.tennant@outlook.com</a><br>
 						<strong>个人博客</strong>：<a href="https://selfimper.github.io">HsienFeng</a><br>
-						<strong>学校</strong>：宁波城市职业技术学院
+						<strong>学校</strong>：宁波城市职业技术学院<br>
+						<strong>专业</strong>：计算机应用
 					</p>
 				</div>
 			</div>
-			<div class="skills">
-				<h3 class="clr2">技能点</h3>
-				<div class="skill_info">
+			<!-- 个人技能 -->
+			<div class="skills ">
+				<h3 class="clr2 animated fadeInLeft delay-3s">技能点</h3>
+				<div class="skill_info animated bounceIn delay-3s">
 					<p>
 						<strong>英文</strong>：四级，能够阅读英文技术文档及其他英文资料。<br>
 						<strong>HTML/CSS</strong>：熟悉HTML/CSS，掌握浮动、定位、盒模型等CSS核心概念，掌握常见布局方式，对代码可读性、规范性、语义化有一定认识，能熟练开发符合W3C规范的常见页面；熟悉Bootstrap框架。<br>
-						<strong>JavaScript</strong>：能使用JavaScript实现常见的效果；了解ES6常用语法，块级作用域、箭头函数、模板字符串、解构赋值等。<br>
+						<strong>JavaScript</strong>：能使用JavaScript实现常见的效果；基本了解ES6几种语法，如let、const、class和继承等。<br>
 						<strong>Node.js</strong>：了解Node.js的基础部分知识，使用Node.js搭建过简易服务器。<br>
 						<strong>jQuery</strong>：熟悉jQuery的常用API，能使用jQuery进行网站开发。<br>
 						<strong>开发环境和工具</strong>：Windows/Ubuntu，Git，Sublime，VS Code，HBuilder，XMind。<br>
 					</p>
 				</div>
 			</div>
-
-			<div class="projects">
-				<h3 class="clr3">个人项目</h3>
-				<div class="projects_details">
+			<!-- 个人项目 -->
+			<div class="projects ">
+				<h3 class="clr3 animated fadeInLeft delay-4s">个人项目</h3>
+				<div class="projects_details animated bounceIn delay-4s">
 					<h4><strong><a href="https://selfimper.github.io/douban-movie/index.html">移动端豆瓣电影</a></strong></h4>
 					<p>
 						豆瓣电影TOP250，可用来查询豆瓣电影榜单上TOP250的电影资源。<br>
@@ -77,15 +80,15 @@
 						关键字搜索。根据关键字，返回相关的电影信息。</p>
 				</div>
 
-				<div class="projects_details">
-					<h4><strong><a href="https://selfimper.github.io/TASK/25/login.html">登录注册页面</a></strong></h4>
+				<div class="projects_details animated bounceIn delay-4s">
+					<h4><strong><a href="https://selfimper.github.io/TASK/25/login.html">登录注册</a></strong></h4>
 					<p>
 						点击右上角的图标，跳转出一个可进行登录和注册的页面。<br>
 						主要使用CSS3实现一个登录注册的翻转效果。
 					</p>
 				</div>
 
-				<div class="projects_details">
+				<div class="projects_details animated bounceIn delay-4s">
 					<h4><strong><a href="https://selfimper.github.io/musicRadio/index.html">大屏音乐电台</a></strong></h4>
 					<p>
 						模拟电台音乐功能，能随机播放音乐。<br>
@@ -95,7 +98,7 @@
 					</p>
 				</div>
 
-				<div class="projects_details">
+				<div class="projects_details animated bounceIn delay-4s">
 					<h4><strong><a href="https://selfimper.github.io/collect/index.html">学习demo汇总</a></strong></h4>
 					<p>学习前端时做练习的一些效果汇总。</p>
 				</div>

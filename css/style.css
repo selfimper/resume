@@ -13,7 +13,7 @@ body a{
 	-moz-transition:0.5s all;
 	-o-transition:0.5s all;
   -ms-transition:0.5s all;
-  color: #24C6DC;
+  color: #514A9D;
 }	
 body {
   padding-top:0px;
@@ -26,7 +26,7 @@ a:focus {
 }
 /*-- header_top --*/
 .sidebar{
-  background:#514A9D;
+  background:#3B559F;
   top: 0px;
   padding:2em 30px;
   text-align: center;
@@ -79,10 +79,11 @@ a:focus {
 }
 
 .basic_details p strong{
-  color: #514A9D;
+  color: #3B559F;
 }
+
 .skill_info p strong{
-  color: #514A9D;
+  color: #3B559F;
 }
 
 .basic {
@@ -114,11 +115,6 @@ a:focus {
   color: #999;
   font-weight:400;
 }
-.basic_details h6,.projects_details h6{
-	font-weight:400;
-	margin-bottom:1.3em;
-	font-size:0.9em;
-}
 .basic_details p,.skill_info p,.projects_details p{
 	color:#333;
 	font-weight:300;
@@ -140,14 +136,20 @@ a:focus {
   padding: 5px 190px 5px 30px;
   display: inline-block;
 }
+
+.projects_details h4 strong a:hover{
+  background-color: #514A9D;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 h3.clr1{
-	background:#514A9D;
+	background:#3B559F;
 }
 h3.clr2{
-	background:#514A9D;
+	background:#3B559F;
 }
 h3.clr3{
-	background:#514A9D;
+	background:#3B559F;
 }
 
 
@@ -193,9 +195,6 @@ h3.clr3{
 }
 .basic_details h4, .projects_details h4 {
   font-size: 1.1em;
-}
-.basic_details h6, .projects_details h6 {
-  font-size: 0.8em;
 }
 .basic_details p, .skill_info p, .projects_details p {
   font-size: 0.8em;
@@ -306,9 +305,6 @@ h3.clr3{
 }
 .basic_details h4, .projects_details h4 {
   font-size: 0.9em;
-}
-.basic_details h6, .projects_details h6 {
-  font-size: 0.6em;
 }
 .basic {
   margin: 1em 0;
