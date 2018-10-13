@@ -1,173 +1,232 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>简历-汪先锋-前端开发工程师</title>
-    <meta name="keywords" content="汪先锋,前端,工作,简历">
-    <link rel="shortcut icon" href="img/favicon.ico">
-    <link rel="stylesheet" href="dist/css/style.min.css">
-    <link rel="stylesheet" href="dist/css/fontello.min.css">
-    <link rel="stylesheet" href="lib/zoom.css">
+	<title>简历-汪先锋-前端开发工程师</title>
+	<meta charset="utf-8" />
+	<meta name="keywords" content="汪先锋,前端,工作,简历">
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="https://at.alicdn.com/t/font_871171_ff89k9vopw.css">
+	<link rel="shortcut icon" href="images/logo.png">
 </head>
-<body>
-    <div class="container">
-        <div class="sidebar">
-            <div class="title">
-                <img src="img/avatar.jpg" data-action="zoom">
-                <h1>汪先锋的简历</h1>
-            </div>
-            <ul class="side-info">
-                <li class="someRight">
-                    <dt><i class="icon-bookmark"></i>Contact. 联系方式</dt>
-                    <dd><i class="icon-phone-1"></i>电话: 17858932981</dd>
-                    <dd><i class="icon-mail-alt"></i>邮箱: <a href="mailto:mr.tennant@outlook.com" target="_blank">mr.tennant@outlook.com</a></dd>
-                    <dd><i class="icon-wechat"></i>微信: Tennant</dd>
-                    <dd><i class="icon-qq"></i>QQ: 465159968</dd>
-                </li>
-                <li class="someRight">
-                    <dt><i class="icon-bookmark"></i>Application. 应聘岗位</dt>
-                    <dd>前端工程师</dd>
-                </li>
-                <li class="someRight">
-                    <dt><i class="icon-bookmark"></i>QR Code. 二维码</dt>
-                    <dd><img src="img/qrcode.jpg" height="200px" width="200px"></dd>
-                </li>
-            </ul>
-        </div>
-        <div class="main">
-            <ul class="main-info">
-                <li class="someRight">
-                    <dt><i class="icon-bookmark"></i>Basic info. 基本信息</dt>
-                    <dd><strong>个人信息:</strong> <span>汪先锋 / 男</span></dd>
-                    <dd><strong>毕业院校:</strong> <span>宁波城市职业技术学院</span></dd>
-                    <dd><strong>专业：</strong> <span>计算机应用</span> </dd>
-                    <dd><strong>个人博客:</strong> <a href="https://selfimper.github.io" target="_blank">HsienFeng</a></dd>
-                </li>
 
-                <li>
-                    <dt><i class="icon-bookmark"></i>Skill. 技能清单</dt>
-                    <h3>前端</h3>
-                    <ul class="exp">
-                        <li>
-                            <div class="circle"></div>
-                            <h4>HTML / CSS</h4>
-                            <p>熟悉HTML/CSS，掌握浮动、定位、盒模型等CSS核心概念，掌握常见布局方式，对代码可读性、规范性、语义化有一定认识，能熟练开发符合W3C规范的常见页面</p>
-                            <p>熟悉Bootstrap框架</p>
-                        </li>
-                        <li>
-                            <div class="circle"></div>
-                            <h4>JavaScript</h4>
-                            <p>能使用JavaScript实现常见的效果；基本了解ES6的几种语法，如let、const、class和继承等</p>
-                            <p>能运用模块化的方式编程</p>
-                            <p>了解 React jQuery 的使用</p>
-                        </li>
-                        <li>
-                            <div class="circle"></div>
-                            <h4>其他</h4>
-                            <p>了解Webpack等前端自动化工具</p>
-                            <p>了解前端安全、性能优化方面的一些知识</p>
-                        </li>
-                    </ul>
-                    <h3>后端</h3>
-                    <ul class="exp">
-                        <li>
-                            <div class="circle"></div>
-                            <h4>Node.js</h4>
-                            <p>了解Node.js的基础部分知识，使用Node.js搭建过简易服务器</p>
-                        </li>
-                    </ul>
-                    <h3>开发环境和工具</h3>
-                    <ul class="exp">
-                        <li>
-                            <p>Windows/Ubuntu，Git，Sublime，VS Code，HBuilder，XMind</p>
-                        </li>
-                    </ul>
-                    <h3>英文</h3>
-                    <ul class="exp">
-                        <li>
-                            <p>四级，能够阅读英文技术文档及其他英文资料</p>
-                        </li>
-                    </ul>
-                </li>
+<body class="is-preload">
 
+	<!-- Wrapper -->
+	<div id="wrapper">
 
-                <li>
-                    <dt><i class="icon-bookmark"></i>Projects. 项目</dt>
-                    <h3>个人项目</h3>
-                    <ul class="exp">
-                        <li>
-                            <div class="circle"></div>
-                            <h4>
-                                <span>移动端豆瓣电影</span>
-                                <a href="https://selfimper.github.io/douban-movie/index.html" target="_blank"><i class="icon-link"></i>Demo</a>
-                            </h4>
-                            <p>
-                                豆瓣电影TOP250，可用来查询豆瓣电影榜单上TOP250的电影资源。<br>
-                                利用豆瓣提供 API 接口，使用 jsonp 解决跨域问题。主要使用 jQuery 以及 jsonp。<br>
-                                实现查询豆瓣 top250 电影列表。首先展示20个数据，用户拉到底部，会接着依次展示另外20个电影数据。<br>
-                                查询北美电影列表。一次性加载数据。<br>
-                                关键字搜索。根据关键字，返回相关的电影信息。</p>
-                            <img src="http://ww1.sinaimg.cn/large/005MueYegy1fw008c5luhj30u01awagx.jpg" data-action="zoom" height="250px">
-                        </li>
+		<!-- Header -->
+		<header id="header" class="alt">
+			<!-- <span class="logo"><img src="images/avatar.jpg" alt="" /></span> -->
+			<h1>汪先锋</h1>
+			<p>应聘职位：前端工程师</p>
+		</header>
 
-                        <li>
-                            <div class="circle"></div>
-                            <h4>
-                                <span>大屏音乐电台</span>
-                                <a href="https://selfimper.github.io/musicRadio/index.html" target="_blank"><i class="icon-link"></i>Demo</a>
-                            </h4>
-                            <p>
-                                模拟电台音乐功能，能随机播放音乐。<br>
-                                响应式布局,歌词自动加载功能。<br>
-                                实现在底部选择分类时，播放区会获取到相应的分类数据并处理，如音乐的地址、图片、标题、作者和歌词。<br>
-                                随意播放与切换下一首歌曲。
-                            </p>
-                            <img src="http://ww1.sinaimg.cn/large/005MueYegy1fw00crxybrj311g0h5wwt.jpg" data-action="zoom" width="300px" height="150px">
-                        </li>
+		<!-- Nav -->
+		<nav id="nav">
+			<ul>
+				<li><a href="#intro" class="active">个人信息</a></li>
+				<li><a href="#first">技能清单</a></li>
+				<li><a href="#second">项目经验</a></li>
+				<li><a href="#cta">项目详情</a></li>
+			</ul>
+		</nav>
 
-                        <li>
-                            <div class="circle"></div>
-                            <h4>
-                                <span>博客聚集地</span>
-                                <a href="https://selfimper.github.io/vue-blog/#/" target="_blank"><i class="icon-link"></i>Demo</a>
-                            </h4>
-                            <p>
-                                用户的登录、注册、注销功能。<br>
-                                首页多人博客列表展示与用户博客列表展示。<br>
-                                个人博客管理:创建、编辑、删除与发布。<br>
-                                基于vue技术栈，做一款多人共享博客的单页应用。<br>
-                                通过vue-cli脚手架搭建生成项目模板，vuex对项目数据进行管理，分别用Less 、 ElementUI对页面样式引入和应用。
-                            </p>
-                            <img src="http://ww1.sinaimg.cn/large/005MueYely1fw5d4uvgxaj311f0h3glz.jpg" data-action="zoom" width="300px" height="150px">
-                        </li>
+		<!-- Main -->
+		<div id="main">
 
-                        <li>
-                            <div class="circle"></div>
-                            <h4>
-                                <span>待办记录本</span>
-                                <a href="https://selfimper.github.io/react-todo/build/index.html" target="_blank"><i class="icon-link"></i>Demo</a>
-                            </h4>
-                            <p>
-                                添加代办事项，删除完成事项。<br>
-                                可进行用户的注册登陆功能。<br>
-                                主要使用Webpack打包工具、React实现，LeanCloud作为第三方数据库实现数据的同步更新。
-                            </p>
-                            <img src="http://ww1.sinaimg.cn/large/005MueYely1fw40n4v16xj31040gxdg3.jpg" data-action="zoom" width="300px" height="150px">
-                        </li>
-                        <li>
-                            <div class="circle"></div>
-                            <h4>
-                                <span>学习demo汇总</span>
-                                <a href="https://selfimper.github.io/collect/index.html" target="_blank"><i class="icon-link"></i>Demo</a>
-                            </h4>
-                            <p>学习前端时做练习的一些效果汇总。</p>
-                            <img src="http://ww1.sinaimg.cn/large/005MueYegy1fw00fww3vnj311b0ftjsd.jpg" data-action="zoom" width="300px" height="150px">
-                        </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <script src="lib/zoom.min.js"></script>
+			<!-- 个人信息 -->
+			<section id="intro" class="main">
+				<div class="spotlight">
+					<div class="content">
+						<header class="major">
+							<h2>个人信息</h2>
+						</header>
+						<p>
+							<span><i class="iconfont icon-school"></i></span> 毕业院校: 宁波城市职业技术学院 <br>
+							<span><i class="iconfont icon-major"></i></span> 专业： 计算机应用 <br>
+							<span><i class="iconfont icon-phone"></i></span> 电话: 17858932981 <br>
+							<span><i class="iconfont icon-email"></i></span> 邮箱: <a href="mailto:mr.tennant@outlook.com" target="_blank">mr.tennant@outlook.com</a>
+							<br>
+							<span><i class="iconfont icon-qq"></i></span> QQ: 465159968 <br>
+							<span><i class="iconfont icon-blog"></i></span> 个人博客: <a href="https://selfimper.github.io" target="_blank">HsienFeng</a>
+						</p>
+					</div>
+					<span class="image"><img src="images/avatar.jpg" alt="" /></span>
+				</div>
+			</section>
+
+			<!-- 技能-->
+			<section id="first" class="main special">
+				<header class="major">
+					<h2>技能清单</h2>
+				</header>
+				<ul class="features">
+					<li>
+						<span class="iconfont major icon-frontend style1"></span>
+						<h3><span><i class="iconfont ic icon-html style6"></i></span> HTML / CSS</h3>
+						<p>
+							熟悉HTML/CSS，掌握浮动、定位、盒模型等CSS核心概念，掌握常见布局方式，对代码可读性、规范性、语义化有一定认识，能熟练开发符合W3C规范的常见页面。 <br>
+							熟悉Bootstrap框架
+						</p>
+					</li>
+
+					<li>
+						<span class="iconfont major icon-coding style2"></span>
+						<h3><span><i class="iconfont ic icon-javascript style7"></i></span> JavaScript</h3>
+						<p>
+							能使用JavaScript实现常见的效果；基本了解ES6的几种语法，如let、const、class和继承等。 <br>
+							能运用模块化的方式编程。 <br>
+							了解 React vue jQuery 的使用。
+						</p>
+					</li>
+
+					<li>
+						<span class="iconfont major icon-other style3"></span>
+						<h3><span><i class="iconfont ic icon-qita style8"></i></span> 其他</h3>
+						<p>
+							了解Webpack等前端自动化工具。 <br>
+							了解前端安全、性能优化方面的一些知识。
+						</p>
+					</li>
+
+					<li>
+						<span class="iconfont major icon-backend style4"></span>
+						<h3><span><i class="iconfont ic icon-nodejs style9"></i></span> Node.js</h3>
+						<p>了解Node.js的基础部分知识，使用Node.js搭建过简易服务器。</p>
+					</li>
+
+					<li>
+						<span class="iconfont major icon-tools style5"></span>
+						<h3><span><i class="iconfont ic icon-condition"></i></span> 开发环境和工具</h3>
+						<p>Windows/Ubuntu，Git，Sublime，VS Code，HBuilder，XMind。</p>
+					</li>
+
+					<li>
+						<span class="iconfont major icon-other1 style10"></span>
+						<p><span><i class="iconfont ic icon-backend style10"></i></span>持续学习中</p>
+					</li>
+				</ul>
+			</section>
+
+			<!-- 项目-->
+			<section id="second" class="main special">
+				<header class="major">
+					<h2>项目经验</h2>
+					<p>可点击查看在线效果</p>
+				</header>
+				<ul class="statistics">
+					<li class="style1">
+						<span class="iconfont icon-movies"></span>
+						<!-- <strong>电影查查看</strong> -->
+						<a href="https://selfimper.github.io/douban-movie/index.html" target="_blank"><strong>电影查查看</strong></a>
+						<i class="iconfont ic icon-javascript"></i>
+						<i class="iconfont ic icon-mobile"></i>
+						<i class="iconfont ic icon-api"></i>
+						<i class="iconfont ic icon-douban"></i>
+						<i class="iconfont ic icon-jquery"></i>
+					</li>
+					<li class="style2">
+						<span class="iconfont icon-music"></span>
+						<!-- <strong>大屏音乐电台</strong> -->
+						<a href="https://selfimper.github.io/musicRadio/index.html" target="_blank"><strong>大屏音乐电台</strong></a>
+						<i class="iconfont ic icon-javascript"></i>
+						<i class="iconfont ic icon-jquery"></i>
+						<i class="iconfont ic icon-api"></i>
+					</li>
+					<li class="style3">
+						<span class="iconfont icon-blog1"></span>
+						<!-- <strong>博客聚集地</strong> -->
+						<a href="https://selfimper.github.io/vue-blog/#/" target="_blank"><strong>博客聚集地</strong></a>
+						<i class="iconfont ic icon-javascript"></i>
+						<i class="iconfont ic icon-mobile"></i>
+						<i class="iconfont ic icon-api"></i>
+						<i class="iconfont ic icon-less"></i>
+						<i class="iconfont ic icon-npm"></i>
+						<i class="iconfont ic icon-vue"></i>
+					</li>
+					<li class="style4">
+						<span class="iconfont icon-todo"></span>
+						<!-- <strong>待办记录本</strong> -->
+						<a href="https://selfimper.github.io/react-todo/build/index.html" target="_blank"><strong>待办记录本</strong></a>
+						<i class="iconfont ic icon-javascript"></i>
+						<i class="iconfont ic icon-react"></i>
+						<i class="iconfont ic icon-webpack"></i>
+					</li>
+					<li class="style5">
+						<span class="iconfont icon-exercise"></span>
+						<!-- <strong>练习DEMO</strong> -->
+						<a href="https://selfimper.github.io/collect/index.html" target="_blank"><strong>练习DEMO</strong></a>
+						<i class="iconfont ic icon-html"></i>
+						<i class="iconfont ic icon-CSS"></i>
+					</li>
+				</ul>
+				<!-- <p class="content"> -->
+
+				<!-- </p> -->
+			</section>
+
+			<!-- 详情 -->
+			<section id="cta" class="main special">
+				<header class="major">
+					<h2>项目详情</h2>
+					<p><a href="https://selfimper.github.io/douban-movie/index.html" target="_blank"><strong>电影查查看</strong></a></p>
+
+					<p class="left">
+						豆瓣电影TOP250，可用来查询豆瓣电影榜单上TOP250的电影资源。<br>
+						利用豆瓣提供 API 接口，使用 jsonp 解决跨域问题。主要使用 jQuery 以及 jsonp。<br>
+						首先展示20个数据，用户拉到底部，会接着依次展示另外20个电影数据。<br>
+						查询北美电影列表。一次性加载数据。<br>
+						关键字搜索。根据关键字，返回相关的电影信息。
+					</p>
+
+					<p><a href="https://selfimper.github.io/musicRadio/index.html" target="_blank"><strong>大屏音乐电台</strong></a></p>
+
+					<p class="left">
+						模拟电台音乐功能，能随机播放音乐。<br>
+						响应式布局,歌词自动加载功能。<br>
+						实现在底部选择分类时，播放区会获取到相应的分类数据并处理，如音乐的地址、图片、标题、作者和歌词。<br>
+						随意播放与切换下一首歌曲。
+					</p>
+
+					<p><a href="https://selfimper.github.io/vue-blog/#/" target="_blank"><strong>博客聚集地</strong></a></p>
+
+					<p class="left">
+						用户的登录、注册、注销功能。<br>
+						首页多人博客列表展示与用户博客列表展示。<br>
+						个人博客管理:创建、编辑、删除与发布。<br>
+						基于vue技术栈，做一款多人共享博客的单页应用。<br>
+						通过vue-cli脚手架搭建生成项目模板，vuex对项目数据进行管理，分别用Less 、 ElementUI对页面样式引入和应用。
+					</p>
+
+					<p><a href="https://selfimper.github.io/react-todo/build/index.html" target="_blank"><strong>待办记录本</strong></a></p>
+
+					<p class="left">
+						添加代办事项，删除完成事项。<br>
+						可进行用户的注册登陆功能。<br>
+						主要使用Webpack打包工具、React实现，LeanCloud作为第三方数据库实现数据的同步更新。
+					</p>
+
+					<p><a href="https://selfimper.github.io/collect/index.html" target="_blank"><strong>练习DEMO</strong></a></p>
+
+					<p class="left">学习前端时做练习的一些效果汇总。</p>
+
+				</header>
+			</section>
+
+		</div>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
